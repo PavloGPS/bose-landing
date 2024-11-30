@@ -14,8 +14,8 @@ section{
   justify-content: space-between;
 }
 .header{
-  /* display: flex; */
-  display: none;
+  display: flex;
+  /* display: none; */
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
