@@ -5,6 +5,8 @@ body{
   margin: 0;
   font-family: "Inter", sans-serif;
   color: #292929;
+  font-size: 16px;
+  line-height: 140%;
 }
 section{
   height: 800px;
@@ -104,4 +106,31 @@ section{
     line-height: 100%;
     font-weight: bold;    
     letter-spacing: -1,5px;    
+  }
+  .recommended{
+    margin-bottom: 120px;
+  }
+  .recomended__products__set{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .recomended__products__item{
+    list-style-type: none;    
+  }
+  .product__photo{
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .product__title{
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  .product__category{
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .product__price{
+    margin: 0;
+    font-weight: bold;
   }
