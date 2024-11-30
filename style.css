@@ -4,6 +4,7 @@ html{
 body{
   margin: 0;
   font-family: "Inter", sans-serif;
+  color: #292929;
 }
 section{
   height: 800px;
@@ -25,6 +26,15 @@ section{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.header__title{
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -1,5px;
 }
 /* #endregion */
 /* #region menu */
@@ -65,3 +75,33 @@ section{
   letter-spacing: 2px;
 }
 /* #endregion */
+  
+.main{
+  padding: 120px;
+}
+.recommended__title{
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1,5px;    
+  }
+.categories__title{
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1,5px;    
+  }
+.how-to-buy__title{
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;    
+    letter-spacing: -1,5px;    
+  }
