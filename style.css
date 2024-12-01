@@ -116,7 +116,8 @@ section{
     gap: 24px;
   }
   .recomended__products__item{
-    list-style-type: none;    
+    list-style-type: none; 
+    flex-basis: 324px;   
   }
   .product__photo{
     width: 100%;
@@ -125,6 +126,8 @@ section{
   .product__title{
     margin-top: 0;
     margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 140%;
   }
   .product__category{
     margin-top: 0;
